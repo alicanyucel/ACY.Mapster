@@ -2,8 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <AssemblyName>ACY.MapsterPattern</AssemblyName>
+    <RootNamespace>ACY.MapsterPattern</RootNamespace>
+
+    <!-- NuGet Paket Bilgileri -->
+    <PackageId>ACY.MapsterPattern</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ali Can Yücel</Authors>
+    <Company>ACY</Company>
+    <Description>Minimal object-to-object mapper library inspired by Mapster.</Description>
+    <PackageTags>Mapper;Mapster;DTO;Entity;ObjectMapping</PackageTags>
+    <RepositoryUrl>https://github.com/alicanyucel/ACY.MapsterPattern</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/alicanyucel/ACY.Mapster</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
